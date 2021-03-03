@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Slides</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <img src="../assets/imgs/slide-1.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="../assets/imgs/slide-2.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="../assets/imgs/slide-3.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="../assets/imgs/slide-4.png">
+    </ion-slide>
+  </ion-slides>
+</ion-content>

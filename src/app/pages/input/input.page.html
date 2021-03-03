@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Input</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!-- Input with clear button when there is a value -->
+<ion-input clearInput value="clear me"></ion-input>
+
+<!-- Number type input -->
+<ion-input type="number" value="333"></ion-input>
+
+<ion-input type="email"></ion-input>
+<ion-input type="search"></ion-input>
+<ion-input type="tel"></ion-input>
+<ion-input type="url"></ion-input>
+
+<ion-item>
+  <ion-label>Default Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="floating">Floating Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="stacked">Stacked Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+
+</ion-content>

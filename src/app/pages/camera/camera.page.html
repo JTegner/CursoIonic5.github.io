@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Camera</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" (click)="tirarFoto()">Fotografar</ion-button>
+  
+  <ion-card [hidden]="!foto">
+    <img src="{{foto}}">
+  </ion-card>
+  
+</ion-content>
